@@ -112,3 +112,8 @@ socket.emit('join', { username, room }, (error) => {
         location.href = '/'
     }
 })
+
+var abc = null
+if(1==1){
+    abc.emit("hello");
+}
